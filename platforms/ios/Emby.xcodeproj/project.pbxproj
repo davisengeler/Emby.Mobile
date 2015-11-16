@@ -91,7 +91,7 @@
 		9AA7A4671E7A49FBBA638914 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 500661F9C5DA4578BA9B65FB /* libstdc++.6.0.9.dylib */; };
 		9B910E528A2E4CB488A2A685 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AE53148E2A4B928B9FBA98 /* DDASLLogger.m */; };
 		A2E430C6B70447E582216526 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D3184A4A142E38454FC6A /* GCDAsyncUdpSocket.m */; };
-		A34CA9211BC96F0000177D9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34CA9201BC96F0000177D9F /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		A34CA9211BC96F0000177D9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34CA9201BC96F0000177D9F /* Launch Screen.storyboard */; };
 		A3A0168D1B3111590089774E /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A0168C1B3111590089774E /* GoogleCast.framework */; };
 		A3A016951B311C000089774E /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A016871B310C850089774E /* libConnectSDK.a */; };
 		A3E7DCD01B086136007556B9 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E7DCCF1B086136007556B9 /* MediaAccessibility.framework */; };
@@ -141,6 +141,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
+		};
+		7260C0E71BFA4CB90003B884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A016801B310C840089774E /* ConnectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 449A37021B0FDC1C00E47DAC;
+			remoteInfo = ConnectSDKIntegrationTests;
+		};
+		7260C0E91BFA4CB90003B884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A016801B310C840089774E /* ConnectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44166C501B4203880052F9EC;
+			remoteInfo = ConnectSDKAcceptanceTests;
 		};
 		A3A016861B310C850089774E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -675,6 +689,8 @@
 			children = (
 				A3A016871B310C850089774E /* libConnectSDK.a */,
 				A3A016891B310C850089774E /* ConnectSDKTests.xctest */,
+				7260C0E81BFA4CB90003B884 /* ConnectSDKIntegrationTests.xctest */,
+				7260C0EA1BFA4CB90003B884 /* ConnectSDKAcceptanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -771,6 +787,20 @@
 			fileType = archive.ar;
 			path = libCordova.a;
 			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7260C0E81BFA4CB90003B884 /* ConnectSDKIntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ConnectSDKIntegrationTests.xctest;
+			remoteRef = 7260C0E71BFA4CB90003B884 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7260C0EA1BFA4CB90003B884 /* ConnectSDKAcceptanceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ConnectSDKAcceptanceTests.xctest;
+			remoteRef = 7260C0E91BFA4CB90003B884 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A3A016871B310C850089774E /* libConnectSDK.a */ = {
@@ -948,11 +978,9 @@
 					"$(inherited)",
 					Emby/Plugins/com.telerik.plugins.wkwebview,
 					"Emby/Plugins/cordova-plugin-webserver",
-					"$(PROJECT_DIR)/Emby/Plugins/cordova-plugin-webserver",
-					"/Users/luke/MediaBrowser.Mobile/plugins/cordova-plugin-webserver/src/ios",
-					"Emby/Plugins/cordova-plugin-webserver",
-					"/Users/luke/Connect-SDK-iOS-1.4",
-					/Users/luke/MediaBrowser.Mobile/plugins/org.nypr.cordova.vlcplugin/VLCKit/build,
+					"../../plugins/cordova-plugin-webserver/src/ios",
+					"../../../Connect-SDK-iOS-1.4",
+					../../plugins/org.nypr.cordova.vlcplugin/VLCKit/build,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -961,7 +989,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Emby/Emby-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Emby/Plugins/org.apache.cordova.speech.speechrecognition",
@@ -1001,18 +1029,16 @@
 					"$(inherited)",
 					Emby/Plugins/com.telerik.plugins.wkwebview,
 					"Emby/Plugins/cordova-plugin-webserver",
-					"$(PROJECT_DIR)/Emby/Plugins/cordova-plugin-webserver",
-					"/Users/luke/MediaBrowser.Mobile/plugins/cordova-plugin-webserver/src/ios",
-					"Emby/Plugins/cordova-plugin-webserver",
-					"/Users/luke/Connect-SDK-iOS-1.4",
-					/Users/luke/MediaBrowser.Mobile/plugins/org.nypr.cordova.vlcplugin/VLCKit/build,
+					"../../plugins/cordova-plugin-webserver/src/ios",
+					"../../../Connect-SDK-iOS-1.4",
+					../../plugins/org.nypr.cordova.vlcplugin/VLCKit/build,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Emby/Emby-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Emby/Emby-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Emby/Plugins/org.apache.cordova.speech.speechrecognition",
