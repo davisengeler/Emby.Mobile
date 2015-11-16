@@ -67,6 +67,13 @@
     function validateProduct(product, callback) {
 
         var productId = product.id;
+
+        // We should never get in here with the unlock, but in case we do
+        if ((productId || '').toLowerCase().indexOf('appunlock') != -1) {
+            callback(true, product);
+            return;
+        }
+
         var cacheKey = productId + (product.transaction.id || '');
 
         var cachedResult = validationCache[cacheKey];
@@ -267,12 +274,20 @@
         return deferred.promise();
     }
 
+    function isUnlockedOverride(feature) {
+
+        var deferred = DeferredBuilder.Deferred();
+        deferred.resolveWith(null, [false]);
+        return deferred.promise();
+    }
+
     window.IapManager = {
         isPurchaseAvailable: isPurchaseAvailable,
         getProductInfo: getProduct,
         beginPurchase: beginPurchase,
         restorePurchase: restorePurchase,
-        getSubscriptionOptions: getSubscriptionOptions
+        getSubscriptionOptions: getSubscriptionOptions,
+        isUnlockedOverride: isUnlockedOverride
     };
 
     initializeStore();

@@ -273,20 +273,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-        "id": "cordova-plugin-globalization.GlobalizationError",
-        "clobbers": [
-            "window.GlobalizationError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-        "id": "cordova-plugin-globalization.globalization",
-        "clobbers": [
-            "navigator.globalization"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-dialogs/www/notification.js",
         "id": "cordova-plugin-dialogs.notification",
         "merges": [
@@ -349,7 +335,6 @@ module.exports.metadata =
     "nl.x-services.plugins.socialsharing": "4.3.18",
     "cordova-plugin-device": "1.0.1",
     "com.dieam.searchbar": "2.1.6",
-    "cordova-plugin-globalization": "1.0.1",
     "cordova-plugin-dialogs": "1.1.1",
     "com.drifty.cordova.cameraroll": "0.2.1",
     "cordova-plugin-statusbar": "2.0.0-dev",

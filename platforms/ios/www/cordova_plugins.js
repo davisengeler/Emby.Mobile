@@ -249,20 +249,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-        "id": "cordova-plugin-globalization.GlobalizationError",
-        "clobbers": [
-            "window.GlobalizationError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-        "id": "cordova-plugin-globalization.globalization",
-        "clobbers": [
-            "navigator.globalization"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-dialogs/www/notification.js",
         "id": "cordova-plugin-dialogs.notification",
         "merges": [
@@ -344,6 +330,20 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.mallzee.collectionrepeatimage/www/CollectionRepeatImage.js",
+        "id": "com.mallzee.collectionrepeatimage.CollectionRepeatImage",
+        "clobbers": [
+            "window.CollectionRepeatImage"
+        ]
+    },
+    {
+        "file": "plugins/com.mallzee.collectionrepeatimage/www/CollectionRepeatImageOptions.js",
+        "id": "com.mallzee.collectionrepeatimage.CollectionRepeatImageOptions",
+        "clobbers": [
+            "window.CollectionRepeatImageOptions"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-chrome-apps-common/events.js",
         "id": "cordova-plugin-chrome-apps-common.events",
         "clobbers": [
@@ -403,7 +403,6 @@ module.exports.metadata =
     "de.appplant.cordova.plugin.local-notification": "0.8.2dev",
     "com.hutchind.cordova.plugins.launcher": "0.2.2",
     "com.mesmotronic.plugins.fullscreen": "1.0.1",
-    "cordova-plugin-crosswalk-webview": "1.2.0",
     "cordova-plugin-file": "3.0.0",
     "cordova-plugin-file-transfer": "1.1.0",
     "nl.x-services.plugins.actionsheet": "1.1.7",
@@ -412,7 +411,6 @@ module.exports.metadata =
     "cordova-plugin-device": "1.0.1",
     "cordova-plugin-webserver": "1.0.3",
     "com.dieam.searchbar": "2.1.6",
-    "cordova-plugin-globalization": "1.0.1",
     "cordova-plugin-dialogs": "1.1.1",
     "org.nypr.cordova.vlcplugin": "0.1.0",
     "com.drifty.cordova.cameraroll": "0.2.1",
@@ -423,6 +421,8 @@ module.exports.metadata =
     "com.squerb.cordova.plugins.ios-tab-bar": "1.0.0",
     "com.telerik.plugins.wkwebview": "0.6.3",
     "cc.fovea.cordova.purchase": "4.0.0",
+    "cordova-plugin-crosswalk-webview": "1.4.0-dev",
+    "com.mallzee.collectionrepeatimage": "0.0.1",
     "cordova-plugin-chrome-apps-common": "1.0.7",
     "cordova-plugin-chrome-apps-iossocketscommon": "1.0.2",
     "de.appplant.cordova.common.registerusernotificationsettings": "1.0.1",
