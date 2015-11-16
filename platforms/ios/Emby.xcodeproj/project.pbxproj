@@ -59,12 +59,20 @@
 		5BEDD852DE844553B99D7B86 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15AFB6E415479DB86E558A /* CDVStatusBar.m */; };
 		5DB6290B34FB4784B3FB23A9 /* ConnectSDKCordovaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B64DD62D0BAE45A585B6CD0A /* ConnectSDKCordovaDispatcher.m */; };
 		5F276D33DF504C35BFD963D2 /* ConnectSDKCordova.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5EEDB423564A2DBF4479BB /* ConnectSDKCordova.m */; };
-		63CB22F5F8A5478AA3D3D298 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84406F29A89C4A4C8388F112 /* libbz2.dylib */; };
 		65E7A31BC52A472E9A78FDEC /* DDNSLoggerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC40B14AD6493CAA80F0E0 /* DDNSLoggerLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6715DB69A20B40FE99913161 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B971AD058EEB4524A7D2862D /* WebKit.framework */; };
 		67249F3F49B94034837FEDAC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792DC102040D47FFA67DEDD6 /* CoreText.framework */; };
 		68CE1ABF6B864BCA92AD645A /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D594993B55134FD38181B118 /* DDAbstractDatabaseLogger.m */; };
 		6EB006F92FD94E1BA33765E9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2FD61737914F109F3B9CF4 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		72BF79BC1BFA50E600BE5397 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79BB1BFA50E600BE5397 /* libz.tbd */; };
+		72BF79BE1BFA510600BE5397 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79BD1BFA510600BE5397 /* libicucore.tbd */; };
+		72BF79C01BFA510F00BE5397 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79BF1BFA510F00BE5397 /* libicucore.tbd */; };
+		72BF79C21BFA511D00BE5397 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79C11BFA511D00BE5397 /* libstdc++.6.0.9.tbd */; };
+		72BF79C41BFA512300BE5397 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79C31BFA512300BE5397 /* libstdc++.6.0.9.tbd */; };
+		72BF79C61BFA512F00BE5397 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79C51BFA512F00BE5397 /* libbz2.tbd */; };
+		72BF79C81BFA513400BE5397 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79C71BFA513400BE5397 /* libbz2.tbd */; };
+		72BF79CA1BFA513E00BE5397 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79C91BFA513E00BE5397 /* libiconv.tbd */; };
+		72BF79CC1BFA514300BE5397 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BF79CB1BFA514300BE5397 /* libiconv.tbd */; };
 		755FED52A10848359408E851 /* AppDelegate+APPRegisterUserNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D1806BDA254742924CF179 /* AppDelegate+APPRegisterUserNotificationSettings.m */; };
 		759AECB95D6A45D0B67A859A /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F90B342F5174FDFAFF64F9C /* CDVFileTransfer.m */; };
 		7B1F2F5E9E3E4B57970320D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB8A31CA3984C3B9990B40E /* QuartzCore.framework */; };
@@ -88,7 +96,6 @@
 		96C461EA659B4E31A53C530F /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826C127FA564CE0AED80C60 /* CDVGlobalization.m */; };
 		97D012AEB3B14F15BB87F4D8 /* VLCPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 73660FE9F738460CA197BED3 /* VLCPlugin.m */; };
 		9A09A8B9684F40F39E770FCF /* BackgroundDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = D71029ECCC2A4AB0832D7C48 /* BackgroundDownload.m */; };
-		9AA7A4671E7A49FBBA638914 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 500661F9C5DA4578BA9B65FB /* libstdc++.6.0.9.dylib */; };
 		9B910E528A2E4CB488A2A685 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AE53148E2A4B928B9FBA98 /* DDASLLogger.m */; };
 		A2E430C6B70447E582216526 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 729D3184A4A142E38454FC6A /* GCDAsyncUdpSocket.m */; };
 		A34CA9211BC96F0000177D9F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34CA9201BC96F0000177D9F /* Launch Screen.storyboard */; };
@@ -106,13 +113,11 @@
 		AE2E0FAC10984A71ACA739E2 /* MainViewController+RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 58643CEBB00C4EBCB5EC7D51 /* MainViewController+RemoteControl.m */; };
 		AFDD39138D6A4CD69475B841 /* ConnectSDKCordovaObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD33B35E9E4B65A9D3D14D /* ConnectSDKCordovaObjects.m */; };
 		B02C5FAE1BDC4BFB8E6F60C0 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A6AF41EA234D31A1B08C70 /* MyMainViewController.m */; };
-		B40F3BFFEB2C408EA34A2AA8 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4330620717C0471DB4E477AC /* libicucore.dylib */; };
 		B5BACF4ED8274178BEE337D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F14394E959548C7B6B7754D /* SystemConfiguration.framework */; };
 		C17F47A7F1BF4575809D7121 /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FD28D22522473EB7420D71 /* SKProduct+LocalizedPrice.m */; };
 		D48CA1D634BB4E98955044FD /* IonicCameraRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = F558690764DB4EEDA661700D /* IonicCameraRoll.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		D6B315FC7BC54470BB3D8A8C /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2F848A81D461F88B5CBB1 /* UICKeyChainStore.m */; };
-		D7494241BECE4915B3897488 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A1E17127948228E93614C /* libiconv.dylib */; };
 		D75559D2BED64D0B98D0549E /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = D68563B78CCB4A62A3D52029 /* CDVAssetLibraryFilesystem.m */; };
 		DB096E97401B4770B56A8557 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE4144D24C433AB361A60F /* CDVSound.m */; };
 		DCE29083083645D694DA1D6D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C4837BBC2A4789B82A1ADC /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -210,7 +215,6 @@
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		3049DBEE86084920A12BC843 /* libz.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
@@ -237,7 +241,6 @@
 		3F14394E959548C7B6B7754D /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3F90B342F5174FDFAFF64F9C /* CDVFileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVFileTransfer.m; path = "cordova-plugin-file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; };
 		41D1806BDA254742924CF179 /* AppDelegate+APPRegisterUserNotificationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+APPRegisterUserNotificationSettings.m"; path = "de.appplant.cordova.common.registerusernotificationsettings/AppDelegate+APPRegisterUserNotificationSettings.m"; sourceTree = "<group>"; };
-		4330620717C0471DB4E477AC /* libicucore.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		45E780A3CCB9463DBBB61E00 /* NSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = "org.nypr.cordova.nslogger-cocoalumberjack-connector-plugin/NSLogger.h"; sourceTree = "<group>"; };
 		47292DEC34854FB8AD481E47 /* BackgroundDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundDownload.h; path = "org.apache.cordova.background-download/BackgroundDownload.h"; sourceTree = "<group>"; };
 		47471598CF804BF6A25F72F4 /* UILocalNotification+APPLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILocalNotification+APPLocalNotification.m"; path = "de.appplant.cordova.plugin.local-notification/UILocalNotification+APPLocalNotification.m"; sourceTree = "<group>"; };
@@ -245,10 +248,8 @@
 		4CB18FC3A5D44E96B1FE69DE /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = "org.nypr.cordova.nslogger-cocoalumberjack-connector-plugin/DDTTYLogger.m"; sourceTree = "<group>"; };
 		4E2578DE79FC4F16B6ABF37D /* ReroutingUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReroutingUIWebView.m; path = com.telerik.plugins.wkwebview/ReroutingUIWebView.m; sourceTree = "<group>"; };
 		4F5A11AD612E4507A7A672B9 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = io.litehelpers.cordova.sqlite/sqlite3.h; sourceTree = "<group>"; };
-		500661F9C5DA4578BA9B65FB /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		521F77F55595452EBDF45125 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
 		556945CEB39B434A86840EDF /* CDVStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
-		562A1E17127948228E93614C /* libiconv.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		580C2EA9C17C4735900E6978 /* ConnectSDKCordovaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectSDKCordovaDispatcher.h; path = com.connectsdk.cordovaplugin/ConnectSDKCordovaDispatcher.h; sourceTree = "<group>"; };
 		58643CEBB00C4EBCB5EC7D51 /* MainViewController+RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MainViewController+RemoteControl.m"; path = "org.nypr.cordova.vlcplugin/MainViewController+RemoteControl.m"; sourceTree = "<group>"; };
 		587B74605C264FABB734128C /* APPLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPLocalNotification.m; path = "de.appplant.cordova.plugin.local-notification/APPLocalNotification.m"; sourceTree = "<group>"; };
@@ -266,6 +267,15 @@
 		7093A8BFFABE42F99964158D /* DDNSLoggerLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNSLoggerLogger.h; path = "org.nypr.cordova.nslogger-cocoalumberjack-connector-plugin/DDNSLoggerLogger.h"; sourceTree = "<group>"; };
 		729D3184A4A142E38454FC6A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = "cordova-plugin-chrome-apps-iossocketscommon/GCDAsyncUdpSocket.m"; sourceTree = "<group>"; };
 		72A2F848A81D461F88B5CBB1 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = hu.dpal.phonegap.plugins.UniqueDeviceID/UICKeyChainStore.m; sourceTree = "<group>"; };
+		72BF79BB1BFA50E600BE5397 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		72BF79BD1BFA510600BE5397 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		72BF79BF1BFA510F00BE5397 /* libicucore.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		72BF79C11BFA511D00BE5397 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		72BF79C31BFA512300BE5397 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		72BF79C51BFA512F00BE5397 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		72BF79C71BFA513400BE5397 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		72BF79C91BFA513E00BE5397 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		72BF79CB1BFA514300BE5397 /* libiconv.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		72E6F2B18B0B44BBB237A2D5 /* CDVBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVBackgroundColor.h; path = "com.crewmeister.cordova-ios-backgroundcolor/CDVBackgroundColor.h"; sourceTree = "<group>"; };
 		73660FE9F738460CA197BED3 /* VLCPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLCPlugin.m; path = org.nypr.cordova.vlcplugin/VLCPlugin.m; sourceTree = "<group>"; };
 		736E770961BA450AAA173F02 /* ConnectSDKCordovaObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectSDKCordovaObjects.h; path = com.connectsdk.cordovaplugin/ConnectSDKCordovaObjects.h; sourceTree = "<group>"; };
@@ -287,7 +297,6 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		82EC40B14AD6493CAA80F0E0 /* DDNSLoggerLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNSLoggerLogger.m; path = "org.nypr.cordova.nslogger-cocoalumberjack-connector-plugin/DDNSLoggerLogger.m"; sourceTree = "<group>"; };
-		84406F29A89C4A4C8388F112 /* libbz2.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		86A6AF41EA234D31A1B08C70 /* MyMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMainViewController.m; path = com.telerik.plugins.wkwebview/MyMainViewController.m; sourceTree = "<group>"; };
 		8C73DEC5762A4794852134A9 /* CDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVTabBar.m; path = "com.squerb.cordova.plugins.ios-tab-bar/CDVTabBar.m"; sourceTree = "<group>"; };
 		8C7A9B8686EE460D9C5939F3 /* UIApplication+APPLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+APPLocalNotification.h"; path = "de.appplant.cordova.plugin.local-notification/UIApplication+APPLocalNotification.h"; sourceTree = "<group>"; };
@@ -378,18 +387,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BF79CA1BFA513E00BE5397 /* libiconv.tbd in Frameworks */,
+				72BF79C61BFA512F00BE5397 /* libbz2.tbd in Frameworks */,
+				72BF79C21BFA511D00BE5397 /* libstdc++.6.0.9.tbd in Frameworks */,
+				72BF79BE1BFA510600BE5397 /* libicucore.tbd in Frameworks */,
+				72BF79CC1BFA514300BE5397 /* libiconv.tbd in Frameworks */,
+				72BF79C01BFA510F00BE5397 /* libicucore.tbd in Frameworks */,
 				A3F3C52B1BA0B14100B1DE6D /* MediaPlayer.framework in Frameworks */,
 				A3F3C5281BA0AE9A00B1DE6D /* MobileVLCKit.framework in Frameworks */,
 				A3E7DCD01B086136007556B9 /* MediaAccessibility.framework in Frameworks */,
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				72BF79BC1BFA50E600BE5397 /* libz.tbd in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				37E4C15B37C74748907180F7 /* Security.framework in Frameworks */,
 				04F6FC7527FA4B6682BB9587 /* CFNetwork.framework in Frameworks */,
 				A3A0168D1B3111590089774E /* GoogleCast.framework in Frameworks */,
-				B40F3BFFEB2C408EA34A2AA8 /* libicucore.dylib in Frameworks */,
 				A3A016951B311C000089774E /* libConnectSDK.a in Frameworks */,
+				72BF79C41BFA512300BE5397 /* libstdc++.6.0.9.tbd in Frameworks */,
 				B5BACF4ED8274178BEE337D4 /* SystemConfiguration.framework in Frameworks */,
 				E4134BFF02C04A4CAF7CF040 /* GCDWebServer.framework in Frameworks */,
 				6EB006F92FD94E1BA33765E9 /* Social.framework in Frameworks */,
@@ -397,10 +413,8 @@
 				DCE29083083645D694DA1D6D /* AudioToolbox.framework in Frameworks */,
 				67249F3F49B94034837FEDAC /* CoreText.framework in Frameworks */,
 				7B1F2F5E9E3E4B57970320D8 /* QuartzCore.framework in Frameworks */,
+				72BF79C81BFA513400BE5397 /* libbz2.tbd in Frameworks */,
 				ED4C68483A2D4445A65B47F9 /* OpenGLES.framework in Frameworks */,
-				9AA7A4671E7A49FBBA638914 /* libstdc++.6.0.9.dylib in Frameworks */,
-				63CB22F5F8A5478AA3D3D298 /* libbz2.dylib in Frameworks */,
-				D7494241BECE4915B3897488 /* libiconv.dylib in Frameworks */,
 				8EEF0700C07D44F084A80265 /* ImageIO.framework in Frameworks */,
 				26C07A39D4B543CCABFB904E /* CoreLocation.framework in Frameworks */,
 				6715DB69A20B40FE99913161 /* WebKit.framework in Frameworks */,
@@ -479,6 +493,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72BF79C91BFA513E00BE5397 /* libiconv.tbd */,
+				72BF79C51BFA512F00BE5397 /* libbz2.tbd */,
+				72BF79C11BFA511D00BE5397 /* libstdc++.6.0.9.tbd */,
+				72BF79BD1BFA510600BE5397 /* libicucore.tbd */,
 				A34CA9011BC8B05700177D9F /* libz.tbd */,
 				A3A0168C1B3111590089774E /* GoogleCast.framework */,
 				A3F3C5271BA0AE9A00B1DE6D /* MobileVLCKit.framework */,
@@ -488,9 +506,9 @@
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				0B7E7ABEF62E4669B12D0F3D /* Security.framework */,
 				F56589A630DC417D9D78FCD1 /* CFNetwork.framework */,
-				3049DBEE86084920A12BC843 /* libz.dylib */,
+				72BF79BB1BFA50E600BE5397 /* libz.tbd */,
 				C2C374D3F2B74479A84498C2 /* MediaPlayer.framework */,
-				4330620717C0471DB4E477AC /* libicucore.dylib */,
+				72BF79BF1BFA510F00BE5397 /* libicucore.tbd */,
 				3F14394E959548C7B6B7754D /* SystemConfiguration.framework */,
 				EC87FA4BD876434380BA3A39 /* GCDWebServer.framework */,
 				9C2FD61737914F109F3B9CF4 /* Social.framework */,
@@ -499,9 +517,9 @@
 				792DC102040D47FFA67DEDD6 /* CoreText.framework */,
 				9DB8A31CA3984C3B9990B40E /* QuartzCore.framework */,
 				78C9A2390BFF4C4D9050DB93 /* OpenGLES.framework */,
-				500661F9C5DA4578BA9B65FB /* libstdc++.6.0.9.dylib */,
-				84406F29A89C4A4C8388F112 /* libbz2.dylib */,
-				562A1E17127948228E93614C /* libiconv.dylib */,
+				72BF79C31BFA512300BE5397 /* libstdc++.6.0.9.tbd */,
+				72BF79C71BFA513400BE5397 /* libbz2.tbd */,
+				72BF79CB1BFA514300BE5397 /* libiconv.tbd */,
 				05DA4705271F494CAE647F27 /* ImageIO.framework */,
 				B671FD6782B74FB1A8814A6E /* CoreLocation.framework */,
 				B971AD058EEB4524A7D2862D /* WebKit.framework */,
